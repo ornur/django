@@ -22,7 +22,14 @@
     ```bash
     python manage.py migrate
     ```
-4. Run server and open the link:
+4.  For authorization you need to write:
+    ```bash
+    python manage.py createsuperuser
+    ```
+    and write admin's username and password. For example: 
+        username: `admin`,
+        password: `admin`
+5. Run server and open the link:
     ```bash
     python manage.py runserver
     ```
